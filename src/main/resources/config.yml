@@ -1,0 +1,42 @@
+countdown: 10
+double-coins: false
+capture-timer: 5
+autostart-percent: 50
+class-button-noperm: '&eYou do not have permission to use that class!'
+afk-timer: 60
+killstreaks: 5
+auto-update: true
+default-localization: english
+potion-effects-after-start: true
+gamemode: adventure
+prevent-inventory-moving: true
+debug: false
+broadcast-winning-team: true
+prevent-block-breaking: true
+map-rotation: false
+capture-reminder: 15
+lightning-while-capturing: false
+capture-point-signs: true
+capture-in-order: true
+dedicated-join: false
+scoreboard: true
+run-commands:
+  on-point-capture:
+  - null
+  on-kill:
+  - null
+  on-red-win:
+  - null
+  on-blue-win:
+  - null
+killsound:
+  sound: CAT_HIT
+  volume: 20
+  pitch: -20
+stats-database:
+  enabled: false
+  hostname: localhost
+  database_name: my_database
+  username: username
+  password: password
+  port: 3306

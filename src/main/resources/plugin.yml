@@ -1,0 +1,27 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+main: ${project.groupId}.tf2.TF2
+authors: [chaseoes, psycowithespn, GamerKing195]
+softdepend: [WorldEdit, Multiworld, TitleAPI, ActionBarAPI, NametagEdit, HolographicDisplays, iDisguise, BossBarAPI, CrackShot, GroupManager]
+depend: [ProtocolLib]
+commands:
+  ${project.name}:
+    description: The central command for ${project.name}.
+    usage: /${project.name} <command> [args]
+  stats:
+    description: Displays your game stats.
+  class:
+    description: Changes your class.
+  leave:
+    description: Leaves the tf2 game.
+  loadout:
+    description: Allows you to view a loadout of a class.
+  syncstats:
+    description: Syncs the player stats on the server with the ones on the database.
+  resource:
+    description: Sends a player the resource pack after they have joined.
+  boosters:
+    description: Shows your current boosters.
+  profile:
+    description: Displays your player profile.
